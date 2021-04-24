@@ -1,0 +1,212 @@
+        body{
+            font-family: Century Gothic;
+        }
+        #topnav{
+            position:fixed;
+            margin: 0;
+            cursor: pointer;
+            width: 100%;
+        }
+        div.top {
+            padding-top:20px;
+        }
+        div.top img{
+            margin-bottom:15px;
+        }
+        div.topnav {
+            margin:0;
+            padding:0;
+        }
+        a:link, a:visited {
+            text-decoration:none;
+        }
+        .w3schools-logo:link, .w3-logo:visited {
+            text-decoration:none;
+        }
+        .img-responsive {
+            display:inline;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            line-height:1.5;
+        }
+        @media (max-width: 992px){
+            .top {
+                line-height: 20px;
+            }
+        }
+        @media (max-width: 415px){
+            .top {
+                line-height: 10px;
+            }
+        }
+        
+        .test + .tooltip > .tooltip-inner {
+              background-color: #2d7dac; 
+              color: #FFFFFF; 
+              border: 1px solid blue; 
+          }
+          /* Tooltip on top */
+          .test + .tooltip.top > .tooltip-arrow {
+              border-top: 5px solid green;
+          }
+          /* Tooltip on bottom */
+          .test + .tooltip.bottom > .tooltip-arrow {
+              border-bottom: 5px solid green;
+          }
+          /* Tooltip on left */
+          .test + .tooltip.left > .tooltip-arrow {
+              border-left: 5px solid green;
+          }
+          /* Tooltip on right */
+          .test + .tooltip.right > .tooltip-arrow {
+              border-right: 5px solid green;
+          }
+    .bs-glyphicons {
+      padding-left: 0;
+      padding-bottom: 1px;
+      margin-bottom: 20px;
+      list-style: none;
+      overflow: hidden;
+    }
+
+    .bs-glyphicons li {
+      float: left;
+      width: 25%;
+      height: 115px;
+      padding: 10px;
+      margin: 0 -1px -1px 0;
+      font-size: 12px;
+      line-height: 1.4;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    .bs-glyphicons .glyphicon {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    .bs-glyphicons .glyphicon-class {
+      display: block;
+      text-align: center;
+      word-wrap: break-word; /* Help out IE10+ with class names */
+    }
+
+    .bs-glyphicons li:hover {
+      background-color: rgba(86, 61, 124, .1);
+    }
+
+    @media (min-width: 768px) {
+      .bs-glyphicons li {
+        width: 12.5%;
+      }
+    }
+
+@media only screen and (min-width :1100px) {
+  #main {
+    margin-left:230px;
+  }
+  #sidemenu {
+    width:230px;
+    display:block;
+  }
+}
+@media only screen and (min-width :992px) {
+  .about {
+    text-align:right;
+    margin:auto;
+  }
+  .css-hide-when-large {
+      display:none;
+  }  
+}
+@media only screen and (max-width :991px) {
+  .topsection {
+    text-align:center;
+  }
+  .topsection img, .topsection div {
+    float:none;
+    margin:auto;
+  }
+  .top {
+    height:100px;
+  }
+  .top img {
+    display:block;
+    margin:auto;
+  }
+  .top .w3schools-logo {
+    position:relative;
+    top:0;
+    width:100%;
+    text-align:center;
+    margin:auto;
+  }  
+  .toptext {
+    width:100%;
+    text-align:center;
+  }
+  .css-hide-when-small {
+    display:none;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size:50px;
+  }
+  .section p {
+    font-size:18px;
+  }
+  .sectionexample {
+    display:none !important;
+  }
+  .section {
+    padding:0 0 30px 0;
+  }
+  .onethird {
+    padding:30px;
+  }
+  #navbtn_tutorials, #navbtn_references, #navbtn_examples {
+    display:none !important;
+  }
+  #menubtn {
+    background-repeat:repeat-x !important;/*To test for devices less than 768px*/
+  }
+  .w3-sidenav {
+    display:none !important;
+  }
+  #main {
+    margin-left:0% !important;
+  }
+}
+@media screen and (min-width: 769px) {
+  #nav_menu-xs {
+    display:none !important;
+  }
+}
+@media screen and (max-width:600px) {
+  .top {
+    height:68px;
+  }
+  .toptext {
+    display:none;
+  }
+  .w3-dropnav .w3-col {
+    height:auto;
+  }
+}
+@font-face {
+font-family: 'fontawesome';
+font-weight:normal;
+font-style:normal;
+}
+.fa {
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  transform:translate(0,0);
+}
